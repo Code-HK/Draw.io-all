@@ -49,6 +49,9 @@
         <mxCell id="c85XVfCDUXbrlefcIpZX-9" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Retrieve it&amp;nbsp;" vertex="1">
           <mxGeometry height="80" width="60" x="630" y="360" as="geometry" />
         </mxCell>
+        <mxCell id="c85XVfCDUXbrlefcIpZX-22" edge="1" parent="1" source="c85XVfCDUXbrlefcIpZX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="c85XVfCDUXbrlefcIpZX-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="c85XVfCDUXbrlefcIpZX-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="compare both and find drift" vertex="1">
           <mxGeometry height="80" width="120" x="368" y="370" as="geometry" />
         </mxCell>
@@ -63,6 +66,9 @@
         </mxCell>
         <mxCell id="c85XVfCDUXbrlefcIpZX-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="It has no old version" vertex="1">
           <mxGeometry height="30" width="60" x="270" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="c85XVfCDUXbrlefcIpZX-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Give output with drift logs" vertex="1">
+          <mxGeometry height="60" width="120" x="368" y="510" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

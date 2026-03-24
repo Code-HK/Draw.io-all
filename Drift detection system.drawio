@@ -4,11 +4,65 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="c85XVfCDUXbrlefcIpZX-19" edge="1" parent="1" source="c85XVfCDUXbrlefcIpZX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="c85XVfCDUXbrlefcIpZX-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="c85XVfCDUXbrlefcIpZX-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Frontend" vertex="1">
           <mxGeometry height="30" width="80" x="385" y="10" as="geometry" />
         </mxCell>
-        <mxCell id="c85XVfCDUXbrlefcIpZX-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="calling api for&amp;nbsp;" vertex="1">
-          <mxGeometry height="80" width="120" x="370" y="260" as="geometry" />
+        <mxCell id="c85XVfCDUXbrlefcIpZX-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Retrieving token" vertex="1">
+          <mxGeometry height="50" width="95" x="378" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c85XVfCDUXbrlefcIpZX-6" edge="1" parent="1" source="c85XVfCDUXbrlefcIpZX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="c85XVfCDUXbrlefcIpZX-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c85XVfCDUXbrlefcIpZX-20" edge="1" parent="1" source="c85XVfCDUXbrlefcIpZX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="c85XVfCDUXbrlefcIpZX-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c85XVfCDUXbrlefcIpZX-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Calling Exchange for RAML" vertex="1">
+          <mxGeometry height="70" width="115" x="368" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="c85XVfCDUXbrlefcIpZX-5" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="MySQL" vertex="1">
+          <mxGeometry height="80" width="60" x="600" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="c85XVfCDUXbrlefcIpZX-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Save it to" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="c85XVfCDUXbrlefcIpZX-12" edge="1" parent="1" source="c85XVfCDUXbrlefcIpZX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="c85XVfCDUXbrlefcIpZX-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="300" />
+              <mxPoint x="540" y="410" />
+              <mxPoint x="488" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c85XVfCDUXbrlefcIpZX-17" edge="1" parent="1" source="c85XVfCDUXbrlefcIpZX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="c85XVfCDUXbrlefcIpZX-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c85XVfCDUXbrlefcIpZX-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Checking RAML version" vertex="1">
+          <mxGeometry height="100" width="100" x="375" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="c85XVfCDUXbrlefcIpZX-15" edge="1" parent="1" source="c85XVfCDUXbrlefcIpZX-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="c85XVfCDUXbrlefcIpZX-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c85XVfCDUXbrlefcIpZX-9" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Retrieve it&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="60" x="630" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="c85XVfCDUXbrlefcIpZX-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="compare both and find drift" vertex="1">
+          <mxGeometry height="80" width="120" x="368" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="c85XVfCDUXbrlefcIpZX-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="It has old version in MySQL" vertex="1">
+          <mxGeometry height="30" width="60" x="540" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="c85XVfCDUXbrlefcIpZX-14" parent="1" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="530" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="c85XVfCDUXbrlefcIpZX-16" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="Terminate flow and log latest version" vertex="1">
+          <mxGeometry height="80" width="120" x="110" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="c85XVfCDUXbrlefcIpZX-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="It has no old version" vertex="1">
+          <mxGeometry height="30" width="60" x="270" y="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
